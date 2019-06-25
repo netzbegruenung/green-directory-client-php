@@ -13,3 +13,5 @@ before_install:
 install:
   - travis_retry composer update --no-interaction --no-suggest
   - cd tests; git clone https://github.com/netzbegruenung/green-directory.git
+
+script: "phpunit -c phpunit.xml.dist tests/"
