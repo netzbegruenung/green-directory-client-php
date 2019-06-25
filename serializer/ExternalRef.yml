@@ -1,0 +1,6 @@
+Netzbegruenung\GreenDirectory\Model\ExternalRef:
+  properties:
+    type:
+      type: string
+    key:
+      type: string

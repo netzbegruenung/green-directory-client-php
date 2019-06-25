@@ -1,0 +1,24 @@
+Netzbegruenung\GreenDirectory\Model\Person:
+  properties:
+    name:
+      type: string
+    givenName:
+      type: string
+    familyName:
+      type: string
+    level:
+      type: string
+    country:
+      type: string
+    state:
+      type: string
+    district:
+      type: string
+    city:
+      type: string
+    region:
+      type: string
+    urls:
+      type: array<Netzbegruenung\GreenDirectory\Model\Url>
+    emails:
+      type: array<Netzbegruenung\GreenDirectory\Model\Email>

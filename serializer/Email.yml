@@ -1,0 +1,4 @@
+Netzbegruenung\GreenDirectory\Model\Email:
+  properties:
+    address:
+      type: string

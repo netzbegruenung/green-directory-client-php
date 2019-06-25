@@ -1,0 +1,23 @@
+{
+    "name": "netzbegruenung/green-directory-client",
+    "description": "PHP client representations of netzbegruenung/green-directory",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maximilian Ruta",
+            "email": "maximilian.ruta@netzbegruenung.de"
+        }
+    ],
+    "require": {
+        "ext-yaml": "*",
+        "jms/serializer": "^3.0",
+        "psr/cache": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Netzbegruenung\\GreenDirectory\\": "src/"
+        },
+        "files": ["bootstrap.php"]
+    }
+}

@@ -1,0 +1,6 @@
+Netzbegruenung\GreenDirectory\Model\Url:
+  properties:
+    type:
+      type: string
+    url:
+      type: string

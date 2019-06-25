@@ -1,0 +1,22 @@
+Netzbegruenung\GreenDirectory\Model\RegionalChapter:
+  properties:
+    name:
+      type: string
+    level:
+      type: string
+    country:
+      type: string
+    state:
+      type: string
+    district:
+      type: string
+    city:
+      type: string
+    region:
+      type: string
+    urls:
+      type: array<Netzbegruenung\GreenDirectory\Model\Url>
+    emails:
+      type: array<Netzbegruenung\GreenDirectory\Model\Email>
+    externalRefs:
+      type: array<Netzbegruenung\GreenDirectory\Model\ExternalRef>
