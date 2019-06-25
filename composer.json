@@ -1,5 +1,5 @@
 {
-    "name": "netzbegruenung/green-directory-client",
+    "name": "netzbegruenung/green-directory",
     "description": "PHP client representations of netzbegruenung/green-directory",
     "type": "library",
     "license": "MIT",
