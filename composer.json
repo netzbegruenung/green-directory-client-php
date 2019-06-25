@@ -13,6 +13,7 @@
         "ext-yaml": "*",
         "php": ">=7.2",
         "jms/serializer": "^3.0",
+        "symfony/yaml": "*",
         "psr/cache": "^1.0"
     },
     "autoload": {
